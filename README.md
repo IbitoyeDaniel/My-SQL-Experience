@@ -32,6 +32,18 @@ SELECT *
 FROM DimProduct 
 WHERE ListPrice > 100;
 ```
+### Question 6: Retrieve the top 10 products with the highest list prices:
+```
+SELECT TOP 10 * 
+FROM DimProduct 
+ORDER BY ListPrice DESC;
+```
+### Question 7: Retrieve the average list price of all products:
+```
+SELECT AVG(ListPrice) AS AverageListPrice 
+FROM DimProduct
+```
+
 
 
 
